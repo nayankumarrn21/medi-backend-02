@@ -1,0 +1,25 @@
+2024-02-29T11:26:41.448+05:30  INFO 14908 --- [main] MediAssistsPolicyServiceApplicationTests : Starting MediAssistsPolicyServiceApplicationTests using Java 21.0.2 with PID 14908 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-02-29T11:26:41.450+05:30  INFO 14908 --- [main] MediAssistsPolicyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-02-29T11:26:41.480+05:30 DEBUG 14908 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6ca320ab
+2024-02-29T11:26:42.231+05:30  INFO 14908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29T11:26:42.301+05:30  INFO 14908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2024-02-29T11:26:42.830+05:30  INFO 14908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-29T11:26:43.097+05:30  INFO 14908 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb2 user=SA
+2024-02-29T11:26:43.099+05:30  INFO 14908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-29T11:26:43.196+05:30  INFO 14908 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29T11:26:43.305+05:30  INFO 14908 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-02-29T11:26:43.367+05:30  INFO 14908 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-29T11:26:43.715+05:30  INFO 14908 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29T11:26:43.790+05:30  WARN 14908 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-29T11:26:44.809+05:30  INFO 14908 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29T11:26:44.851+05:30  INFO 14908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29T11:26:45.421+05:30  WARN 14908 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29T11:26:45.527+05:30 DEBUG 14908 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2024-02-29T11:26:45.688+05:30 DEBUG 14908 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-02-29T11:26:45.729+05:30 DEBUG 14908 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-29T11:26:45.786+05:30 DEBUG 14908 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-02-29T11:26:45.899+05:30  INFO 14908 --- [main] MediAssistsPolicyServiceApplicationTests : Started MediAssistsPolicyServiceApplicationTests in 4.779 seconds (process running for 5.977)
+2024-02-29T11:26:46.614+05:30 DEBUG 14908 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6ca320ab, started on Thu Feb 29 11:26:41 IST 2024
+2024-02-29T11:26:46.622+05:30  INFO 14908 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29T11:26:46.633+05:30  INFO 14908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-29T11:26:46.642+05:30  INFO 14908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
