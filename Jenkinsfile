@@ -6,5 +6,10 @@ pipeline {
         echo "Testing stage build"
       }
     }
+    stage('Build and Test') {
+      steps {
+          sh './mvnw clean test'
+      }
+    }
   }
 }
