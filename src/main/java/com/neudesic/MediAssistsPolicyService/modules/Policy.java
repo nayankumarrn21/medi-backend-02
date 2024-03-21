@@ -3,13 +3,14 @@ package com.neudesic.MediAssistsPolicyService.modules;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+import lombok.Builder;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Table
-public class Policy {
+public class Policy implements Cloneable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -83,6 +84,9 @@ public class Policy {
         this.companyName = companyName;
     }
 
+    public Policy() {
+    }
+
     @Override
     public String toString() {
         return "Policy{" +
@@ -93,5 +97,16 @@ public class Policy {
                 ", description='" + description + '\'' +
                 ", beneficiariesList=" + beneficiariesList +
                 '}';
+    }
+
+    @Override
+    public Policy clone() {
+        try {
+            Policy clone = (Policy) super.clone();
+            // TODO: copy mutable state here, so the clone can't change the internals of the original
+            return clone;
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
     }
 }
