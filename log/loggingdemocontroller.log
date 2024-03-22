@@ -1,290 +1,308 @@
-2024-03-21T11:11:57.592+05:30  INFO 3536 --- [main] MediAssistsPolicyServiceApplicationTests : Starting MediAssistsPolicyServiceApplicationTests using Java 21.0.2 with PID 3536 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T11:11:57.605+05:30  INFO 3536 --- [main] MediAssistsPolicyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T11:11:57.641+05:30 DEBUG 3536 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@f8908f6
-2024-03-21T11:11:58.427+05:30  INFO 3536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-03-21T11:11:58.489+05:30  INFO 3536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
-2024-03-21T11:11:59.946+05:30  INFO 3536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-03-21T11:12:00.206+05:30  INFO 3536 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb2 user=SA
-2024-03-21T11:12:00.208+05:30  INFO 3536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-03-21T11:12:00.271+05:30  INFO 3536 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-03-21T11:12:00.346+05:30  INFO 3536 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-03-21T11:12:00.397+05:30  INFO 3536 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-03-21T11:12:00.551+05:30  INFO 3536 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-03-21T11:12:00.626+05:30  WARN 3536 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-03-21T11:12:01.714+05:30  INFO 3536 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-03-21T11:12:01.757+05:30  INFO 3536 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:12:02.396+05:30  WARN 3536 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-03-21T11:12:02.535+05:30 DEBUG 3536 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
-2024-03-21T11:12:02.679+05:30 DEBUG 3536 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T11:12:02.724+05:30 DEBUG 3536 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T11:12:02.772+05:30 DEBUG 3536 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T11:12:02.906+05:30  INFO 3536 --- [main] MediAssistsPolicyServiceApplicationTests : Started MediAssistsPolicyServiceApplicationTests in 5.59 seconds (process running for 6.739)
-2024-03-21T11:12:02.996+05:30 DEBUG 3536 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@f8908f6, started on Thu Mar 21 11:11:57 IST 2024
-2024-03-21T11:12:03.001+05:30  INFO 3536 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:12:03.008+05:30  INFO 3536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-03-21T11:12:03.011+05:30  INFO 3536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-03-21T11:14:46.475+05:30  INFO 12700 --- [main] c.n.M.services.PolicyServiceTest         : Starting PolicyServiceTest using Java 21.0.2 with PID 12700 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T11:14:46.477+05:30  INFO 12700 --- [main] c.n.M.services.PolicyServiceTest         : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T11:14:46.514+05:30 DEBUG 12700 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3d4d3fe7
-2024-03-21T11:14:47.167+05:30  INFO 12700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-03-21T11:14:47.236+05:30  INFO 12700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
-2024-03-21T11:14:48.841+05:30  INFO 12700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-03-21T11:14:49.070+05:30  INFO 12700 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb2 user=SA
-2024-03-21T11:14:49.072+05:30  INFO 12700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-03-21T11:14:49.133+05:30  INFO 12700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-03-21T11:14:49.201+05:30  INFO 12700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-03-21T11:14:49.242+05:30  INFO 12700 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-03-21T11:14:49.374+05:30  INFO 12700 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-03-21T11:14:49.429+05:30  WARN 12700 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-03-21T11:14:50.301+05:30  INFO 12700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-03-21T11:14:50.339+05:30  INFO 12700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:14:50.996+05:30  WARN 12700 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-03-21T11:14:51.115+05:30 DEBUG 12700 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
-2024-03-21T11:14:51.270+05:30 DEBUG 12700 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T11:14:51.316+05:30 DEBUG 12700 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T11:14:51.352+05:30 DEBUG 12700 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T11:14:51.485+05:30  INFO 12700 --- [main] c.n.M.services.PolicyServiceTest         : Started PolicyServiceTest in 5.334 seconds (process running for 6.344)
-2024-03-21T11:14:51.570+05:30 DEBUG 12700 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3d4d3fe7, started on Thu Mar 21 11:14:46 IST 2024
-2024-03-21T11:14:51.575+05:30  INFO 12700 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:14:51.584+05:30  INFO 12700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-03-21T11:14:51.587+05:30  INFO 12700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-03-21T11:24:23.802+05:30  INFO 18052 --- [main] MediAssistsPolicyServiceApplicationTests : Starting MediAssistsPolicyServiceApplicationTests using Java 21.0.2 with PID 18052 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T11:24:23.802+05:30  INFO 18052 --- [main] MediAssistsPolicyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T11:24:23.861+05:30 DEBUG 18052 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5c84624f
-2024-03-21T11:24:24.562+05:30  INFO 18052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-03-21T11:24:24.635+05:30  INFO 18052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
-2024-03-21T11:24:26.411+05:30  INFO 18052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-03-21T11:24:26.829+05:30  INFO 18052 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb2 user=SA
-2024-03-21T11:24:26.833+05:30  INFO 18052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-03-21T11:24:26.952+05:30  INFO 18052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-03-21T11:24:27.070+05:30  INFO 18052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-03-21T11:24:27.147+05:30  INFO 18052 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-03-21T11:24:27.397+05:30  INFO 18052 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-03-21T11:24:27.498+05:30  WARN 18052 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-03-21T11:24:29.067+05:30  INFO 18052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-03-21T11:24:29.125+05:30  INFO 18052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:24:29.824+05:30  WARN 18052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-03-21T11:24:29.989+05:30 DEBUG 18052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
-2024-03-21T11:24:30.156+05:30 DEBUG 18052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T11:24:30.216+05:30 DEBUG 18052 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T11:24:30.270+05:30 DEBUG 18052 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T11:24:30.403+05:30  INFO 18052 --- [main] MediAssistsPolicyServiceApplicationTests : Started MediAssistsPolicyServiceApplicationTests in 6.894 seconds (process running for 8.02)
-2024-03-21T11:24:30.529+05:30  INFO 18052 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neudesic.MediAssistsPolicyService.repositories.PolicyRepositoryTest]: PolicyRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-03-21T11:24:30.592+05:30  INFO 18052 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.neudesic.MediAssistsPolicyService.MediAssistsPolicyServiceApplication for test class com.neudesic.MediAssistsPolicyService.repositories.PolicyRepositoryTest
-2024-03-21T11:24:30.609+05:30  INFO 18052 --- [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
-2024-03-21T11:24:30.659+05:30  INFO 18052 --- [main] c.n.M.repositories.PolicyRepositoryTest  : Starting PolicyRepositoryTest using Java 21.0.2 with PID 18052 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T11:24:30.660+05:30  INFO 18052 --- [main] c.n.M.repositories.PolicyRepositoryTest  : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T11:24:30.805+05:30  INFO 18052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-03-21T11:24:30.814+05:30  INFO 18052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
-2024-03-21T11:24:30.847+05:30  INFO 18052 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
-2024-03-21T11:24:30.865+05:30  INFO 18052 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:25b71fcc-9026-43c6-9c22-a9bb50047554;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2024-03-21T11:24:30.908+05:30  INFO 18052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-03-21T11:24:30.911+05:30  INFO 18052 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-03-21T11:24:30.914+05:30  INFO 18052 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-03-21T11:24:30.914+05:30  WARN 18052 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-03-21T11:24:31.038+05:30  INFO 18052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-03-21T11:24:31.050+05:30  INFO 18052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:24:31.140+05:30  INFO 18052 --- [main] c.n.M.repositories.PolicyRepositoryTest  : Started PolicyRepositoryTest in 0.531 seconds (process running for 8.756)
-2024-03-21T11:24:31.585+05:30  INFO 18052 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neudesic.MediAssistsPolicyService.services.PolicyServiceTest]: PolicyServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-03-21T11:24:31.674+05:30 DEBUG 18052 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5c84624f, started on Thu Mar 21 11:24:23 IST 2024
-2024-03-21T11:24:31.690+05:30  INFO 18052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:24:31.690+05:30  INFO 18052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-03-21T11:24:31.690+05:30  INFO 18052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-03-21T11:24:31.705+05:30  INFO 18052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:35:05.568+05:30  INFO 19132 --- [main] MediAssistsPolicyServiceApplicationTests : Starting MediAssistsPolicyServiceApplicationTests using Java 21.0.2 with PID 19132 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T11:35:05.570+05:30  INFO 19132 --- [main] MediAssistsPolicyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T11:35:05.598+05:30 DEBUG 19132 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53cdecf6
-2024-03-21T11:35:06.248+05:30  INFO 19132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-03-21T11:35:06.300+05:30  INFO 19132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
-2024-03-21T11:35:07.778+05:30  INFO 19132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-03-21T11:35:07.963+05:30  INFO 19132 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb2 user=SA
-2024-03-21T11:35:07.969+05:30  INFO 19132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-03-21T11:35:08.038+05:30  INFO 19132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-03-21T11:35:08.113+05:30  INFO 19132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-03-21T11:35:08.153+05:30  INFO 19132 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-03-21T11:35:08.281+05:30  INFO 19132 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-03-21T11:35:08.344+05:30  WARN 19132 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-03-21T11:35:09.165+05:30  INFO 19132 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-03-21T11:35:09.210+05:30  INFO 19132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:35:09.809+05:30  WARN 19132 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-03-21T11:35:09.908+05:30 DEBUG 19132 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
-2024-03-21T11:35:10.042+05:30 DEBUG 19132 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T11:35:10.090+05:30 DEBUG 19132 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T11:35:10.129+05:30 DEBUG 19132 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T11:35:10.236+05:30  INFO 19132 --- [main] MediAssistsPolicyServiceApplicationTests : Started MediAssistsPolicyServiceApplicationTests in 4.91 seconds (process running for 5.896)
-2024-03-21T11:35:10.349+05:30  INFO 19132 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neudesic.MediAssistsPolicyService.repositories.PolicyRepositoryTest]: PolicyRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-03-21T11:35:10.399+05:30  INFO 19132 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.neudesic.MediAssistsPolicyService.MediAssistsPolicyServiceApplication for test class com.neudesic.MediAssistsPolicyService.repositories.PolicyRepositoryTest
-2024-03-21T11:35:10.404+05:30  INFO 19132 --- [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
-2024-03-21T11:35:10.427+05:30  INFO 19132 --- [main] c.n.M.repositories.PolicyRepositoryTest  : Starting PolicyRepositoryTest using Java 21.0.2 with PID 19132 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T11:35:10.427+05:30  INFO 19132 --- [main] c.n.M.repositories.PolicyRepositoryTest  : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T11:35:10.513+05:30  INFO 19132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-03-21T11:35:10.523+05:30  INFO 19132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
-2024-03-21T11:35:10.539+05:30  INFO 19132 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
-2024-03-21T11:35:10.583+05:30  INFO 19132 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:3d3c1004-e156-48bc-9e42-ae730d480fa3;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2024-03-21T11:35:10.635+05:30  INFO 19132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-03-21T11:35:10.639+05:30  INFO 19132 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-03-21T11:35:10.648+05:30  INFO 19132 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-03-21T11:35:10.651+05:30  WARN 19132 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-03-21T11:35:10.711+05:30  INFO 19132 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-03-21T11:35:10.721+05:30  INFO 19132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:35:10.814+05:30  INFO 19132 --- [main] c.n.M.repositories.PolicyRepositoryTest  : Started PolicyRepositoryTest in 0.409 seconds (process running for 6.474)
-2024-03-21T11:35:11.099+05:30  INFO 19132 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neudesic.MediAssistsPolicyService.services.PolicyServiceTest]: PolicyServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-03-21T11:35:11.183+05:30 DEBUG 19132 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@53cdecf6, started on Thu Mar 21 11:35:05 IST 2024
-2024-03-21T11:35:11.186+05:30  INFO 19132 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T11:35:11.193+05:30  INFO 19132 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-03-21T11:35:11.197+05:30  INFO 19132 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-03-21T11:35:11.198+05:30  INFO 19132 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T13:57:16.172+05:30  INFO 9900 --- [main] c.n.M.repositories.PolicyRepositoryTest  : Starting PolicyRepositoryTest using Java 21.0.2 with PID 9900 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T13:57:16.174+05:30  INFO 9900 --- [main] c.n.M.repositories.PolicyRepositoryTest  : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T13:57:16.521+05:30  INFO 9900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-03-21T13:57:16.590+05:30  INFO 9900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
-2024-03-21T13:57:16.641+05:30  INFO 9900 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
-2024-03-21T13:57:16.835+05:30  INFO 9900 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:94abca0a-701d-4b06-bad7-7f94eb413d97;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2024-03-21T13:57:17.103+05:30  INFO 9900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-03-21T13:57:17.158+05:30  INFO 9900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-03-21T13:57:17.193+05:30  INFO 9900 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-03-21T13:57:17.433+05:30  INFO 9900 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-03-21T13:57:17.484+05:30  WARN 9900 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-03-21T13:57:18.377+05:30  INFO 9900 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-03-21T13:57:18.414+05:30  INFO 9900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T13:57:18.821+05:30  INFO 9900 --- [main] c.n.M.repositories.PolicyRepositoryTest  : Started PolicyRepositoryTest in 2.982 seconds (process running for 3.94)
-2024-03-21T13:57:19.605+05:30  INFO 9900 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T13:57:30.012+05:30  INFO 8384 --- [main] c.n.M.repositories.PolicyRepositoryTest  : Starting PolicyRepositoryTest using Java 21.0.2 with PID 8384 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T13:57:30.014+05:30  INFO 8384 --- [main] c.n.M.repositories.PolicyRepositoryTest  : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T13:57:30.380+05:30  INFO 8384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-03-21T13:57:30.444+05:30  INFO 8384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
-2024-03-21T13:57:30.498+05:30  INFO 8384 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
-2024-03-21T13:57:30.659+05:30  INFO 8384 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:1d6a936d-ce15-4beb-8235-dc259d196835;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2024-03-21T13:57:30.921+05:30  INFO 8384 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-03-21T13:57:30.974+05:30  INFO 8384 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-03-21T13:57:31.005+05:30  INFO 8384 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-03-21T13:57:31.222+05:30  INFO 8384 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-03-21T13:57:31.276+05:30  WARN 8384 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-03-21T13:57:32.217+05:30  INFO 8384 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-03-21T13:57:32.250+05:30  INFO 8384 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T13:57:32.663+05:30  INFO 8384 --- [main] c.n.M.repositories.PolicyRepositoryTest  : Started PolicyRepositoryTest in 2.995 seconds (process running for 3.932)
-2024-03-21T13:57:33.442+05:30  INFO 8384 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-03-21T14:34:51.290+05:30  INFO 27864 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 27864 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T14:34:51.291+05:30  INFO 27864 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T14:34:51.305+05:30 DEBUG 27864 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5215cd9a
-2024-03-21T14:34:53.263+05:30 DEBUG 27864 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
-2024-03-21T14:34:53.381+05:30 DEBUG 27864 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T14:34:53.439+05:30 DEBUG 27864 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T14:34:53.490+05:30 DEBUG 27864 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T14:34:53.533+05:30  INFO 27864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-03-21T14:34:53.533+05:30  INFO 27864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-03-21T14:34:53.535+05:30  INFO 27864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-03-21T14:34:53.573+05:30  INFO 27864 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.635 seconds (process running for 3.679)
-2024-03-21T14:34:53.673+05:30 DEBUG 27864 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5215cd9a, started on Thu Mar 21 14:34:51 IST 2024
-2024-03-21T14:35:26.229+05:30  INFO 22524 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 22524 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T14:35:26.231+05:30  INFO 22524 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T14:35:26.244+05:30 DEBUG 22524 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5215cd9a
-2024-03-21T14:35:27.967+05:30 DEBUG 22524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
-2024-03-21T14:35:28.116+05:30 DEBUG 22524 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T14:35:28.190+05:30 DEBUG 22524 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T14:35:28.235+05:30 DEBUG 22524 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T14:35:28.278+05:30  INFO 22524 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-03-21T14:35:28.279+05:30  INFO 22524 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-03-21T14:35:28.280+05:30  INFO 22524 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-03-21T14:35:28.309+05:30  INFO 22524 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.428 seconds (process running for 3.389)
-2024-03-21T14:35:28.394+05:30 DEBUG 22524 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5215cd9a, started on Thu Mar 21 14:35:26 IST 2024
-2024-03-21T14:36:16.614+05:30  INFO 26460 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 26460 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T14:36:16.616+05:30  INFO 26460 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T14:36:16.629+05:30 DEBUG 26460 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@75201592
-2024-03-21T14:36:18.389+05:30 DEBUG 26460 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
-2024-03-21T14:36:18.504+05:30 DEBUG 26460 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T14:36:18.556+05:30 DEBUG 26460 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T14:36:18.604+05:30 DEBUG 26460 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T14:36:18.654+05:30  INFO 26460 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-03-21T14:36:18.655+05:30  INFO 26460 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-03-21T14:36:18.657+05:30  INFO 26460 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-03-21T14:36:18.698+05:30  INFO 26460 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.401 seconds (process running for 3.335)
-2024-03-21T14:36:18.832+05:30 DEBUG 26460 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@75201592, started on Thu Mar 21 14:36:16 IST 2024
-2024-03-21T14:36:33.928+05:30  INFO 7500 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 7500 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T14:36:33.930+05:30  INFO 7500 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T14:36:33.947+05:30 DEBUG 7500 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@31198ceb
-2024-03-21T14:36:35.722+05:30 DEBUG 7500 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
-2024-03-21T14:36:35.852+05:30 DEBUG 7500 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T14:36:35.910+05:30 DEBUG 7500 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T14:36:35.962+05:30 DEBUG 7500 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T14:36:36.003+05:30  INFO 7500 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-03-21T14:36:36.004+05:30  INFO 7500 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-03-21T14:36:36.005+05:30  INFO 7500 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-03-21T14:36:36.042+05:30  INFO 7500 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.484 seconds (process running for 3.457)
-2024-03-21T14:36:36.122+05:30 DEBUG 7500 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@31198ceb, started on Thu Mar 21 14:36:33 IST 2024
-2024-03-21T14:36:52.290+05:30  INFO 20260 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 20260 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T14:36:52.291+05:30  INFO 20260 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T14:36:52.307+05:30 DEBUG 20260 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@31198ceb
-2024-03-21T14:36:54.134+05:30 DEBUG 20260 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
-2024-03-21T14:36:54.264+05:30 DEBUG 20260 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T14:36:54.326+05:30 DEBUG 20260 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T14:36:54.368+05:30 DEBUG 20260 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T14:36:54.405+05:30  INFO 20260 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-03-21T14:36:54.405+05:30  INFO 20260 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-03-21T14:36:54.407+05:30  INFO 20260 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-03-21T14:36:54.440+05:30  INFO 20260 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.488 seconds (process running for 3.45)
-2024-03-21T14:36:54.564+05:30 DEBUG 20260 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@31198ceb, started on Thu Mar 21 14:36:52 IST 2024
-2024-03-21T14:37:37.061+05:30  INFO 16504 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 16504 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T14:37:37.062+05:30  INFO 16504 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T14:37:37.077+05:30 DEBUG 16504 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@31198ceb
-2024-03-21T14:37:38.872+05:30 DEBUG 16504 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
-2024-03-21T14:37:39.004+05:30 DEBUG 16504 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T14:37:39.059+05:30 DEBUG 16504 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T14:37:39.111+05:30 DEBUG 16504 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T14:37:39.157+05:30  INFO 16504 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-03-21T14:37:39.158+05:30  INFO 16504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-03-21T14:37:39.160+05:30  INFO 16504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2024-03-21T14:37:39.196+05:30  INFO 16504 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.473 seconds (process running for 3.436)
-2024-03-21T14:37:39.337+05:30 DEBUG 16504 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#createPolicy(Policy, BindingResult)
-2024-03-21T14:37:39.379+05:30 DEBUG 16504 --- [main] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json" to [Policy{id=null, title='My Policy', insuredAmount='384384', companyName='Neu', description='Descripti (truncated)...]
-2024-03-21T14:37:39.457+05:30 DEBUG 16504 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2024-03-21T14:37:39.458+05:30 DEBUG 16504 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Policy{id=null, title='My Policy', insuredAmount='384384', companyName='Neu', description='Descripti (truncated)...]
-2024-03-21T14:37:39.503+05:30 DEBUG 16504 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@31198ceb, started on Thu Mar 21 14:37:37 IST 2024
-2024-03-21T14:38:02.954+05:30  INFO 22880 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 22880 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T14:38:02.956+05:30  INFO 22880 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T14:38:02.972+05:30 DEBUG 22880 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@31198ceb
-2024-03-21T14:38:04.663+05:30 DEBUG 22880 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
-2024-03-21T14:38:04.795+05:30 DEBUG 22880 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T14:38:04.845+05:30 DEBUG 22880 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T14:38:04.899+05:30 DEBUG 22880 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T14:38:04.946+05:30  INFO 22880 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-03-21T14:38:04.947+05:30  INFO 22880 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-03-21T14:38:04.948+05:30  INFO 22880 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-03-21T14:38:04.985+05:30  INFO 22880 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.382 seconds (process running for 3.363)
-2024-03-21T14:38:05.119+05:30 DEBUG 22880 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#createPolicy(Policy, BindingResult)
-2024-03-21T14:38:05.161+05:30 DEBUG 22880 --- [main] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json" to [Policy{id=null, title='My Policy', insuredAmount='384384', companyName='Neu', description='Descripti (truncated)...]
-2024-03-21T14:38:05.251+05:30 DEBUG 22880 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2024-03-21T14:38:05.252+05:30 DEBUG 22880 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Policy{id=null, title='My Policy', insuredAmount='384384', companyName='Neu', description='Descripti (truncated)...]
-2024-03-21T14:38:05.281+05:30 DEBUG 22880 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@31198ceb, started on Thu Mar 21 14:38:02 IST 2024
-2024-03-21T14:46:01.018+05:30  INFO 13000 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 13000 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T14:46:01.019+05:30  INFO 13000 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T14:46:01.035+05:30 DEBUG 13000 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d
-2024-03-21T14:46:02.998+05:30 DEBUG 13000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
-2024-03-21T14:46:03.143+05:30 DEBUG 13000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T14:46:03.207+05:30 DEBUG 13000 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T14:46:03.253+05:30 DEBUG 13000 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T14:46:03.292+05:30  INFO 13000 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-03-21T14:46:03.292+05:30  INFO 13000 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-03-21T14:46:03.294+05:30  INFO 13000 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2024-03-21T14:46:03.332+05:30  INFO 13000 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.629 seconds (process running for 3.676)
-2024-03-21T14:46:03.495+05:30 DEBUG 13000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#createPolicy(Policy, BindingResult)
-2024-03-21T14:46:03.541+05:30 DEBUG 13000 --- [main] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json" to [Policy{id=null, title='My Policy', insuredAmount='384384', companyName='Neu', description='Descripti (truncated)...]
-2024-03-21T14:46:03.640+05:30 DEBUG 13000 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2024-03-21T14:46:03.641+05:30 DEBUG 13000 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Policy{id=null, title='My Policy', insuredAmount='384384', companyName='Neu', description='Descripti (truncated)...]
-2024-03-21T14:46:03.676+05:30 DEBUG 13000 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d, started on Thu Mar 21 14:46:01 IST 2024
-2024-03-21T14:46:26.659+05:30  INFO 13652 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 13652 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
-2024-03-21T14:46:26.660+05:30  INFO 13652 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-03-21T14:46:26.676+05:30 DEBUG 13652 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@9257031
-2024-03-21T14:46:28.497+05:30 DEBUG 13652 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
-2024-03-21T14:46:28.637+05:30 DEBUG 13652 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2024-03-21T14:46:28.694+05:30 DEBUG 13652 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-03-21T14:46:28.747+05:30 DEBUG 13652 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-03-21T14:46:28.790+05:30  INFO 13652 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-03-21T14:46:28.791+05:30  INFO 13652 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-03-21T14:46:28.792+05:30  INFO 13652 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-03-21T14:46:28.828+05:30  INFO 13652 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.506 seconds (process running for 3.414)
-2024-03-21T14:46:28.973+05:30 DEBUG 13652 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#createPolicy(Policy, BindingResult)
-2024-03-21T14:46:29.049+05:30 DEBUG 13652 --- [main] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json" to [Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description' (truncated)...]
-2024-03-21T14:46:29.139+05:30 DEBUG 13652 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2024-03-21T14:46:29.140+05:30 DEBUG 13652 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description' (truncated)...]
-2024-03-21T14:46:29.168+05:30 DEBUG 13652 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@9257031, started on Thu Mar 21 14:46:26 IST 2024
+2024-03-22T11:28:38.354+05:30  INFO 14868 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 14868 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T11:28:38.369+05:30  INFO 14868 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T11:28:38.393+05:30 DEBUG 14868 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@9257031
+2024-03-22T11:28:40.394+05:30 DEBUG 14868 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T11:28:40.533+05:30 DEBUG 14868 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T11:28:40.586+05:30 DEBUG 14868 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T11:28:40.637+05:30 DEBUG 14868 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T11:28:40.683+05:30  INFO 14868 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T11:28:40.683+05:30  INFO 14868 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T11:28:40.685+05:30  INFO 14868 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-22T11:28:40.726+05:30  INFO 14868 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.773 seconds (process running for 3.898)
+2024-03-22T11:28:40.823+05:30  WARN 14868 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-03-22T11:28:40.864+05:30 DEBUG 14868 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@9257031, started on Fri Mar 22 11:28:38 IST 2024
+2024-03-22T11:29:19.752+05:30  INFO 24180 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 24180 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T11:29:19.754+05:30  INFO 24180 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T11:29:19.768+05:30 DEBUG 24180 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d
+2024-03-22T11:29:21.555+05:30 DEBUG 24180 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T11:29:21.676+05:30 DEBUG 24180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T11:29:21.741+05:30 DEBUG 24180 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T11:29:21.808+05:30 DEBUG 24180 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T11:29:21.872+05:30  INFO 24180 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T11:29:21.873+05:30  INFO 24180 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T11:29:21.875+05:30  INFO 24180 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-03-22T11:29:21.926+05:30  INFO 24180 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.55 seconds (process running for 3.616)
+2024-03-22T11:29:22.025+05:30 DEBUG 24180 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getAll()
+2024-03-22T11:29:22.053+05:30 DEBUG 24180 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T11:29:22.057+05:30 DEBUG 24180 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description (truncated)...]
+2024-03-22T11:29:22.151+05:30 DEBUG 24180 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d, started on Fri Mar 22 11:29:19 IST 2024
+2024-03-22T11:58:39.063+05:30  INFO 19016 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 19016 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T11:58:39.064+05:30  INFO 19016 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T11:58:39.080+05:30 DEBUG 19016 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d
+2024-03-22T11:58:41.076+05:30 DEBUG 19016 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T11:58:41.202+05:30 DEBUG 19016 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T11:58:41.257+05:30 DEBUG 19016 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T11:58:41.297+05:30 DEBUG 19016 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T11:58:41.349+05:30  INFO 19016 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T11:58:41.350+05:30  INFO 19016 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T11:58:41.351+05:30  INFO 19016 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-22T11:58:41.394+05:30  INFO 19016 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.666 seconds (process running for 3.722)
+2024-03-22T11:58:41.526+05:30 DEBUG 19016 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#createPolicy(Policy, BindingResult)
+2024-03-22T11:58:41.583+05:30 DEBUG 19016 --- [main] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json" to [Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description' (truncated)...]
+2024-03-22T11:58:41.656+05:30 DEBUG 19016 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T11:58:41.657+05:30 DEBUG 19016 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description' (truncated)...]
+2024-03-22T11:58:41.683+05:30 DEBUG 19016 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d, started on Fri Mar 22 11:58:39 IST 2024
+2024-03-22T11:59:39.801+05:30  INFO 24408 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 24408 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T11:59:39.802+05:30  INFO 24408 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T11:59:39.817+05:30 DEBUG 24408 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@9257031
+2024-03-22T11:59:41.627+05:30 DEBUG 24408 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T11:59:41.749+05:30 DEBUG 24408 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T11:59:41.804+05:30 DEBUG 24408 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T11:59:41.846+05:30 DEBUG 24408 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T11:59:41.892+05:30  INFO 24408 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T11:59:41.892+05:30  INFO 24408 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T11:59:41.893+05:30  INFO 24408 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-22T11:59:41.929+05:30  INFO 24408 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.463 seconds (process running for 3.523)
+2024-03-22T11:59:42.062+05:30 DEBUG 24408 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#createPolicy(Policy, BindingResult)
+2024-03-22T11:59:42.125+05:30 DEBUG 24408 --- [main] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json" to [Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description' (truncated)...]
+2024-03-22T11:59:42.198+05:30 DEBUG 24408 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T11:59:42.198+05:30 DEBUG 24408 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description' (truncated)...]
+2024-03-22T11:59:42.229+05:30 DEBUG 24408 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@9257031, started on Fri Mar 22 11:59:39 IST 2024
+2024-03-22T12:02:16.409+05:30  INFO 18632 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 18632 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:02:16.411+05:30  INFO 18632 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:02:16.427+05:30 DEBUG 18632 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d
+2024-03-22T12:02:18.404+05:30 DEBUG 18632 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:02:18.531+05:30 DEBUG 18632 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:02:18.581+05:30 DEBUG 18632 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:02:18.625+05:30 DEBUG 18632 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:02:18.672+05:30  INFO 18632 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:02:18.673+05:30  INFO 18632 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:02:18.675+05:30  INFO 18632 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-03-22T12:02:18.712+05:30  INFO 18632 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.654 seconds (process running for 3.763)
+2024-03-22T12:02:18.791+05:30 DEBUG 18632 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getAll()
+2024-03-22T12:02:18.824+05:30 DEBUG 18632 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:02:18.828+05:30 DEBUG 18632 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description (truncated)...]
+2024-03-22T12:02:18.924+05:30 DEBUG 18632 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d, started on Fri Mar 22 12:02:16 IST 2024
+2024-03-22T12:11:27.255+05:30  INFO 28368 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 28368 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:11:27.256+05:30  INFO 28368 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:11:27.274+05:30 DEBUG 28368 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d
+2024-03-22T12:11:29.150+05:30 DEBUG 28368 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:11:29.266+05:30 DEBUG 28368 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:11:29.318+05:30 DEBUG 28368 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:11:29.358+05:30 DEBUG 28368 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:11:29.423+05:30  INFO 28368 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:11:29.424+05:30  INFO 28368 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:11:29.426+05:30  INFO 28368 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-03-22T12:11:29.471+05:30  INFO 28368 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.613 seconds (process running for 4.001)
+2024-03-22T12:11:29.568+05:30 DEBUG 28368 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getAll()
+2024-03-22T12:11:29.594+05:30 DEBUG 28368 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:11:29.598+05:30 DEBUG 28368 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description (truncated)...]
+2024-03-22T12:11:29.719+05:30 DEBUG 28368 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d, started on Fri Mar 22 12:11:27 IST 2024
+2024-03-22T12:12:36.473+05:30  INFO 25332 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 25332 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:12:36.474+05:30  INFO 25332 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:12:36.490+05:30 DEBUG 25332 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d
+2024-03-22T12:12:38.338+05:30 DEBUG 25332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:12:38.460+05:30 DEBUG 25332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:12:38.514+05:30 DEBUG 25332 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:12:38.558+05:30 DEBUG 25332 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:12:38.604+05:30  INFO 25332 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:12:38.605+05:30  INFO 25332 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:12:38.607+05:30  INFO 25332 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-22T12:12:38.640+05:30  INFO 25332 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.528 seconds (process running for 3.594)
+2024-03-22T12:12:38.719+05:30 DEBUG 25332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getAll()
+2024-03-22T12:12:38.750+05:30 DEBUG 25332 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:12:38.754+05:30 DEBUG 25332 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description (truncated)...]
+2024-03-22T12:12:38.841+05:30 DEBUG 25332 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d, started on Fri Mar 22 12:12:36 IST 2024
+2024-03-22T12:16:22.611+05:30  INFO 4384 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 4384 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:16:22.612+05:30  INFO 4384 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:16:22.628+05:30 DEBUG 4384 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d
+2024-03-22T12:16:24.578+05:30 DEBUG 4384 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:16:24.710+05:30 DEBUG 4384 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:16:24.759+05:30 DEBUG 4384 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:16:24.802+05:30 DEBUG 4384 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:16:24.846+05:30  INFO 4384 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:16:24.847+05:30  INFO 4384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:16:24.849+05:30  INFO 4384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-03-22T12:16:24.893+05:30  INFO 4384 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.626 seconds (process running for 3.688)
+2024-03-22T12:16:24.988+05:30 DEBUG 4384 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getAll()
+2024-03-22T12:16:25.032+05:30 DEBUG 4384 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:16:25.037+05:30 DEBUG 4384 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description (truncated)...]
+2024-03-22T12:16:25.165+05:30 DEBUG 4384 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d, started on Fri Mar 22 12:16:22 IST 2024
+2024-03-22T12:17:57.216+05:30  INFO 516 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 516 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:17:57.218+05:30  INFO 516 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:17:57.235+05:30 DEBUG 516 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d
+2024-03-22T12:17:59.107+05:30 DEBUG 516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:17:59.239+05:30 DEBUG 516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:17:59.295+05:30 DEBUG 516 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:17:59.340+05:30 DEBUG 516 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:17:59.392+05:30  INFO 516 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:17:59.392+05:30  INFO 516 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:17:59.394+05:30  INFO 516 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-03-22T12:17:59.426+05:30  INFO 516 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.545 seconds (process running for 3.607)
+2024-03-22T12:17:59.512+05:30 DEBUG 516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getAll()
+2024-03-22T12:17:59.538+05:30 DEBUG 516 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:17:59.541+05:30 DEBUG 516 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description (truncated)...]
+2024-03-22T12:17:59.663+05:30 DEBUG 516 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d, started on Fri Mar 22 12:17:57 IST 2024
+2024-03-22T12:18:28.199+05:30  INFO 20668 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 20668 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:18:28.200+05:30  INFO 20668 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:18:28.213+05:30 DEBUG 20668 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d
+2024-03-22T12:18:30.209+05:30 DEBUG 20668 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:18:30.324+05:30 DEBUG 20668 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:18:30.382+05:30 DEBUG 20668 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:18:30.435+05:30 DEBUG 20668 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:18:30.482+05:30  INFO 20668 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:18:30.483+05:30  INFO 20668 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:18:30.484+05:30  INFO 20668 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-22T12:18:30.518+05:30  INFO 20668 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.656 seconds (process running for 3.728)
+2024-03-22T12:18:30.609+05:30 DEBUG 20668 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getAll()
+2024-03-22T12:18:30.640+05:30 DEBUG 20668 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:18:30.644+05:30 DEBUG 20668 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description (truncated)...]
+2024-03-22T12:18:30.780+05:30 DEBUG 20668 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@36b6964d, started on Fri Mar 22 12:18:28 IST 2024
+2024-03-22T12:21:02.785+05:30  INFO 5244 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 5244 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:21:02.789+05:30  INFO 5244 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:21:02.816+05:30 DEBUG 5244 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7726e185
+2024-03-22T12:21:04.696+05:30 DEBUG 5244 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:21:04.825+05:30 DEBUG 5244 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:21:04.883+05:30 DEBUG 5244 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:21:04.930+05:30 DEBUG 5244 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:21:04.999+05:30  INFO 5244 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:21:05.000+05:30  INFO 5244 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:21:05.003+05:30  INFO 5244 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-03-22T12:21:05.074+05:30  INFO 5244 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.666 seconds (process running for 3.7)
+2024-03-22T12:21:05.177+05:30 DEBUG 5244 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getAll()
+2024-03-22T12:21:05.200+05:30 DEBUG 5244 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:21:05.203+05:30 DEBUG 5244 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description (truncated)...]
+2024-03-22T12:21:05.326+05:30 DEBUG 5244 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7726e185, started on Fri Mar 22 12:21:02 IST 2024
+2024-03-22T12:24:44.152+05:30  INFO 20876 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 20876 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:24:44.153+05:30  INFO 20876 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:24:44.167+05:30 DEBUG 20876 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@aa5455e
+2024-03-22T12:24:45.970+05:30 DEBUG 20876 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:24:46.096+05:30 DEBUG 20876 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:24:46.150+05:30 DEBUG 20876 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:24:46.193+05:30 DEBUG 20876 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:24:46.242+05:30  INFO 20876 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:24:46.243+05:30  INFO 20876 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:24:46.245+05:30  INFO 20876 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-03-22T12:24:46.292+05:30  INFO 20876 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.496 seconds (process running for 3.555)
+2024-03-22T12:24:46.397+05:30 DEBUG 20876 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#deletePolicy(Integer)
+2024-03-22T12:24:46.425+05:30 DEBUG 20876 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-03-22T12:24:46.426+05:30 DEBUG 20876 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Policy deleted"]
+2024-03-22T12:24:46.449+05:30 DEBUG 20876 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@aa5455e, started on Fri Mar 22 12:24:44 IST 2024
+2024-03-22T12:26:19.989+05:30  INFO 17436 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 17436 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:26:19.989+05:30  INFO 17436 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:26:20.006+05:30 DEBUG 17436 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@aa5455e
+2024-03-22T12:26:21.897+05:30 DEBUG 17436 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:26:22.019+05:30 DEBUG 17436 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:26:22.065+05:30 DEBUG 17436 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:26:22.107+05:30 DEBUG 17436 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:26:22.152+05:30  INFO 17436 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:26:22.152+05:30  INFO 17436 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:26:22.154+05:30  INFO 17436 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-22T12:26:22.185+05:30  INFO 17436 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.796 seconds (process running for 3.851)
+2024-03-22T12:26:22.270+05:30 DEBUG 17436 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#deletePolicy(Integer)
+2024-03-22T12:26:22.319+05:30 DEBUG 17436 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-03-22T12:26:22.321+05:30 DEBUG 17436 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Policy deleted"]
+2024-03-22T12:26:22.367+05:30 DEBUG 17436 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@aa5455e, started on Fri Mar 22 12:26:20 IST 2024
+2024-03-22T12:27:33.758+05:30  INFO 25096 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 25096 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:27:33.759+05:30  INFO 25096 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:27:33.775+05:30 DEBUG 25096 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@aa5455e
+2024-03-22T12:27:35.710+05:30 DEBUG 25096 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:27:35.832+05:30 DEBUG 25096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:27:35.887+05:30 DEBUG 25096 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:27:35.933+05:30 DEBUG 25096 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:27:35.977+05:30  INFO 25096 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:27:35.978+05:30  INFO 25096 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:27:35.979+05:30  INFO 25096 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-22T12:27:36.014+05:30  INFO 25096 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.608 seconds (process running for 3.616)
+2024-03-22T12:27:36.095+05:30 DEBUG 25096 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#deletePolicy(Integer)
+2024-03-22T12:27:36.124+05:30 DEBUG 25096 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-03-22T12:27:36.125+05:30 DEBUG 25096 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Policy deleted"]
+2024-03-22T12:27:36.153+05:30 DEBUG 25096 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@aa5455e, started on Fri Mar 22 12:27:33 IST 2024
+2024-03-22T12:27:56.468+05:30  INFO 23060 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 23060 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:27:56.470+05:30  INFO 23060 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:27:56.484+05:30 DEBUG 23060 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1ad926d3
+2024-03-22T12:27:58.279+05:30 DEBUG 23060 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:27:58.407+05:30 DEBUG 23060 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:27:58.458+05:30 DEBUG 23060 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:27:58.496+05:30 DEBUG 23060 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:27:58.532+05:30  INFO 23060 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:27:58.532+05:30  INFO 23060 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:27:58.533+05:30  INFO 23060 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-22T12:27:58.557+05:30  INFO 23060 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.404 seconds (process running for 3.369)
+2024-03-22T12:27:58.689+05:30 DEBUG 23060 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#createPolicy(Policy, BindingResult)
+2024-03-22T12:27:58.730+05:30 DEBUG 23060 --- [main] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json" to [Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description' (truncated)...]
+2024-03-22T12:27:58.799+05:30 DEBUG 23060 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:27:58.800+05:30 DEBUG 23060 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description' (truncated)...]
+2024-03-22T12:27:58.853+05:30 DEBUG 23060 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getAll()
+2024-03-22T12:27:58.856+05:30 DEBUG 23060 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:27:58.856+05:30 DEBUG 23060 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description (truncated)...]
+2024-03-22T12:27:58.903+05:30 DEBUG 23060 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#deletePolicy(Integer)
+2024-03-22T12:27:58.905+05:30 DEBUG 23060 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-03-22T12:27:58.906+05:30 DEBUG 23060 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Policy deleted"]
+2024-03-22T12:27:58.941+05:30  INFO 23060 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neudesic.MediAssistsPolicyService.MediAssistsPolicyServiceApplicationTests]: MediAssistsPolicyServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-03-22T12:27:58.953+05:30  INFO 23060 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.neudesic.MediAssistsPolicyService.MediAssistsPolicyServiceApplication for test class com.neudesic.MediAssistsPolicyService.MediAssistsPolicyServiceApplicationTests
+2024-03-22T12:27:58.968+05:30  INFO 23060 --- [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-03-22T12:27:59.004+05:30  INFO 23060 --- [main] MediAssistsPolicyServiceApplicationTests : Starting MediAssistsPolicyServiceApplicationTests using Java 21.0.2 with PID 23060 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:27:59.004+05:30  INFO 23060 --- [main] MediAssistsPolicyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:27:59.007+05:30 DEBUG 23060 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@66a472b9
+2024-03-22T12:27:59.425+05:30  INFO 23060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22T12:27:59.486+05:30  INFO 23060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2024-03-22T12:27:59.938+05:30  INFO 23060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-22T12:28:00.199+05:30  INFO 23060 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb2 user=SA
+2024-03-22T12:28:00.201+05:30  INFO 23060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-22T12:28:00.254+05:30  INFO 23060 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22T12:28:00.350+05:30  INFO 23060 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22T12:28:00.389+05:30  INFO 23060 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-22T12:28:00.503+05:30  INFO 23060 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22T12:28:00.559+05:30  WARN 23060 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22T12:28:01.350+05:30  INFO 23060 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22T12:28:01.395+05:30  INFO 23060 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22T12:28:01.918+05:30  WARN 23060 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22T12:28:01.952+05:30 DEBUG 23060 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:28:01.995+05:30 DEBUG 23060 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:28:02.004+05:30 DEBUG 23060 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:28:02.009+05:30 DEBUG 23060 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:28:02.090+05:30  INFO 23060 --- [main] MediAssistsPolicyServiceApplicationTests : Started MediAssistsPolicyServiceApplicationTests in 3.122 seconds (process running for 6.902)
+2024-03-22T12:28:02.113+05:30  INFO 23060 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neudesic.MediAssistsPolicyService.repositories.PolicyRepositoryTest]: PolicyRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-03-22T12:28:02.134+05:30  INFO 23060 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.neudesic.MediAssistsPolicyService.MediAssistsPolicyServiceApplication for test class com.neudesic.MediAssistsPolicyService.repositories.PolicyRepositoryTest
+2024-03-22T12:28:02.139+05:30  INFO 23060 --- [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-03-22T12:28:02.162+05:30  INFO 23060 --- [main] c.n.M.repositories.PolicyRepositoryTest  : Starting PolicyRepositoryTest using Java 21.0.2 with PID 23060 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:28:02.163+05:30  INFO 23060 --- [main] c.n.M.repositories.PolicyRepositoryTest  : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:28:02.238+05:30  INFO 23060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22T12:28:02.258+05:30  INFO 23060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2024-03-22T12:28:02.278+05:30  INFO 23060 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2024-03-22T12:28:02.306+05:30  INFO 23060 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:a72b4026-d4da-49e2-ae65-38f296da65a9;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-03-22T12:28:02.328+05:30  INFO 23060 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22T12:28:02.331+05:30  INFO 23060 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-22T12:28:02.334+05:30  INFO 23060 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22T12:28:02.336+05:30  WARN 23060 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22T12:28:02.388+05:30  INFO 23060 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22T12:28:02.398+05:30  INFO 23060 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22T12:28:02.455+05:30  INFO 23060 --- [main] c.n.M.repositories.PolicyRepositoryTest  : Started PolicyRepositoryTest in 0.317 seconds (process running for 7.268)
+2024-03-22T12:28:02.786+05:30  INFO 23060 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neudesic.MediAssistsPolicyService.services.PolicyServiceTest]: PolicyServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-03-22T12:28:02.848+05:30 DEBUG 23060 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1ad926d3, started on Fri Mar 22 12:27:56 IST 2024
+2024-03-22T12:28:02.851+05:30 DEBUG 23060 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@66a472b9, started on Fri Mar 22 12:27:59 IST 2024
+2024-03-22T12:28:02.852+05:30  INFO 23060 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22T12:28:02.859+05:30  INFO 23060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-22T12:28:02.863+05:30  INFO 23060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-22T12:28:02.864+05:30  INFO 23060 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22T12:31:57.423+05:30  INFO 26144 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 26144 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:31:57.424+05:30  INFO 26144 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:31:57.443+05:30 DEBUG 26144 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7726e185
+2024-03-22T12:31:59.383+05:30 DEBUG 26144 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:31:59.515+05:30 DEBUG 26144 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:31:59.572+05:30 DEBUG 26144 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:31:59.612+05:30 DEBUG 26144 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:31:59.661+05:30  INFO 26144 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:31:59.661+05:30  INFO 26144 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:31:59.663+05:30  INFO 26144 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-03-22T12:31:59.696+05:30  INFO 26144 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.634 seconds (process running for 3.694)
+2024-03-22T12:31:59.791+05:30 DEBUG 26144 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getPolicy(Integer)
+2024-03-22T12:31:59.880+05:30 DEBUG 26144 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:31:59.884+05:30 DEBUG 26144 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description' (truncated)...]
+2024-03-22T12:31:59.945+05:30 DEBUG 26144 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7726e185, started on Fri Mar 22 12:31:57 IST 2024
+2024-03-22T12:32:23.201+05:30  INFO 21292 --- [main] c.n.M.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.2 with PID 21292 (started by Nayankumar.Nagaraju in C:\Users\nayankumar.nagaraju\Downloads\MediAssistsPolicyService\MediAssistsPolicyService)
+2024-03-22T12:32:23.203+05:30  INFO 21292 --- [main] c.n.M.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-22T12:32:23.216+05:30 DEBUG 21292 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7726e185
+2024-03-22T12:32:25.021+05:30 DEBUG 21292 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-03-22T12:32:25.135+05:30 DEBUG 21292 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-22T12:32:25.184+05:30 DEBUG 21292 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-22T12:32:25.220+05:30 DEBUG 21292 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-22T12:32:25.269+05:30  INFO 21292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-22T12:32:25.269+05:30  INFO 21292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-22T12:32:25.271+05:30  INFO 21292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-03-22T12:32:25.304+05:30  INFO 21292 --- [main] c.n.M.controller.PolicyControllerTest    : Started PolicyControllerTest in 2.469 seconds (process running for 3.515)
+2024-03-22T12:32:25.385+05:30 DEBUG 21292 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.neudesic.MediAssistsPolicyService.controller.PolicyController#getPolicy(Integer)
+2024-03-22T12:32:25.445+05:30 DEBUG 21292 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-22T12:32:25.449+05:30 DEBUG 21292 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Policy{id=1, title='My Policy', insuredAmount='384384', companyName='Neu', description='Description' (truncated)...]
+2024-03-22T12:32:25.522+05:30 DEBUG 21292 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7726e185, started on Fri Mar 22 12:32:23 IST 2024
