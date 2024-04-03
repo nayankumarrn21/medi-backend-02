@@ -12,10 +12,5 @@ pipeline {
           sh './mvnw clean test'
       }
     }
-    stage('Build docker image') {
-      steps {
-          sh 'docker build -t microservice_policy_1 . '
-      }
-    }
   }
 }
